@@ -1,0 +1,6 @@
+
+<% @flats.each do |flat| %>
+  <div>
+  <%= link_to "#{flat.name} - #{flat.description}", flat_path(flat) %>
+  </div>
+<% end %>
